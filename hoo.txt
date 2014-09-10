@@ -2,6 +2,19 @@
 tegn
 
 
+检测
+
+生成SSH密钥过程：
+1.查看是否已经有了ssh密钥：cd ~/.ssh
+如果没有密钥则不会有此文件夹，有则备份删除
+2.生存密钥：
+
+  $ ssh-keygen -t rsa -C "gudujianjsk@gmail.com"
+  按3个回车，密码为空这里一般不使用密钥。
+  最后得到了两个文件：id_rsa和id_rsa.pub
+
+
+
 提交
 git init
 git remote add origin git@github.com:flasher01/hoolai.git
@@ -14,5 +27,10 @@ git push origin master
 更新代码
 
 git pull git@github.com:flasher01/hoolai.git
+
+
+
+clone 
+git clone https://github.com/flasher01/jsTast.git
 
 
