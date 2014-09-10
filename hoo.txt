@@ -1,4 +1,4 @@
-hoolaisango
+﻿hoolaisango
 tegn
 
 
@@ -9,5 +9,10 @@ git add 文件名字
 git commit -m "注释"
 git push origin master
 
+
+
+更新代码
+
+git pull git@github.com:flasher01/hoolai.git
 
 
