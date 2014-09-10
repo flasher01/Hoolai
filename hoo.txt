@@ -1,1 +1,12 @@
 hoolaisango
+
+
+提交
+git init
+git remote add origin git@github.com:flasher01/hoolai.git
+git add 文件名字
+git commit -m "注释"
+git push origin master
+
+
+
